@@ -1,0 +1,27 @@
+{  
+   "$schema":"https://gallery.azure.com/schemas/2015-02-12/UIDefinition.json",
+   "createDefinition":{  
+      "createBlade":{  
+         "name":"CreateBlade",
+         "extension":"WebsitesExtension"
+      },
+      "startboardPart":{  
+         "name":"SingleWebsitePart",
+         "extension":"WebsitesExtension"
+      },
+      "startboardPartKeyId":"id"
+   },
+   "initialData":{  
+      "mysql":true,
+      "localmysql":false,
+      "sql":false,     
+      "gitHubDeployment":{  
+         "repoUrl":"https://github.com/prashanthmadi/azure-ghost",
+         "branch":"master"
+      },
+      "appSettingsToSet":{  
+         "WEBSITES_ENABLE_APP_SERVICE_STORAGE":true
+      }
+   }
+}
+

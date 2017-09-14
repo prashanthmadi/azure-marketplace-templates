@@ -1,0 +1,19 @@
+{
+  "displayName": "Ghost on App Service Linux",
+  "publisherDisplayName": "Prashanth Madi",
+  "summary": "Run Ghost Application in App Service Linux",
+  "description": "<!DOCTYPE html><html><head><meta charset="utf-8"><title>Untitled Document.md</title><style></style></head><body id="preview">
+<h1><a id="Ghost_on_Azure_0"></a>Ghost on Azure</h1>
+<p>Extending Offical Ghost docker to work in Azure App Service Linux</p>
+<p>Ghost v1.x on Azure App Service Linux : <a href="https://ourwayoflyf.com/ghost-v1-0-on-app-service-linux/">https://ourwayoflyf.com/ghost-v1-0-on-app-service-linux/</a></p>
+<p>DockerHub : <a href="https://hub.docker.com/r/prashanthmadi/azure-ghost/">https://hub.docker.com/r/prashanthmadi/azure-ghost/</a>&lt;br&gt;<br>
+GitHub : <a href="https://github.com/prashanthmadi/azure-ghost">https://github.com/prashanthmadi/azure-ghost</a></p>
+<h4><a id="Contributors_8"></a>Contributors</h4>
+<ul>
+<li><a href="https://github.com/sureddy1">Srikanth Sureddy</a></li>
+<li><a href="https://github.com/prashanthmadi">Prashanth Madi</a></li>
+</ul>
+</body></html>",
+  "authorLink": "Prashanth Madi",
+  "learnMoreLink": "https://ourwayoflyf.com/ghost-v1-0-on-app-service-linux"
+}

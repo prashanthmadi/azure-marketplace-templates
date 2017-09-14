@@ -1,0 +1,48 @@
+{
+  "$schema": "https://gallery.azure.com/schemas/2014-09-01/manifest.json#",
+  "name": "Ghost",
+  "publisher": "Prashanth Madi",
+  "version": "1.0.0",
+  "displayName": "ms-resource:displayName",
+  "publisherDisplayName": "ms-resource:publisherDisplayName",
+  "publisherLegalName": "ms-resource:publisherDisplayName",
+  "summary": "ms-resource:summary",
+  "longSummary": "ms-resource:summary",
+  "description": "ms-resource:description",
+  "uiDefinition": {
+    "path": "UIDefinition.json"
+  },
+  "artifacts": [      
+    {
+      "name": "Website_NewHostingPlan_Ghost_MySQL",
+      "type": "Template",
+      "path": "DeploymentTemplates\\Website_NewHostingPlan_Ghost_MySQL.json",
+      "isDefault": true
+    }
+  ],
+  "icons": {
+    "small": "Icons\\Small.png",
+    "medium": "Icons\\Medium.png",
+    "wide": "Icons\\Wide.png",
+    "large": "Icons\\Large.png"
+  },
+  "links": [
+    {
+      "displayName": "ms-resource:authorLink",
+      "uri": "https://ghost.org/"
+    },
+    {
+      "displayName": "ms-resource:learnMoreLink",
+      "uri": "https://help.ghost.org/hc/en-us"
+    }
+  ],
+  "screenshots": [
+    "Screenshots\\ghost.png"
+  ],
+  "categories": [
+    "web",
+    "blogCms",
+    "hidden_csp",
+    "createv2"
+  ]  
+}
